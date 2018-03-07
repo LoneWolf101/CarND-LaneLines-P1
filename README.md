@@ -384,6 +384,12 @@ I'd like to learn how to implement deep learning to the sequence of videos to re
 
 Another possible improvement would be to account for the fact that lanes are curved and therefore using a second degree polynomial solution to map the curved lanes better.
 
+## Conclusion
+
+In this project, I have developed and implemented an algorithm for detecting white and yellow colored lanes on the road. The lane detection method is robust and effective in finding the exact lanes by using both color and edge orientations. The main contributions are the color segmentation procedure identifying the yellow or white colored lanes followed by edge orientation in which the boundaries are eliminated, lanes are detected, left and right regions are labeled, outliers are removed and finally one line per region remains after using a linear regression on each set. As the camera remains constant with respect to the road surface, the road portion of the image can be exclusively cropped by providing coordinates, so that identifying the lanes becomes much more efficient. The experimental results show the effectiveness of the proposed method in cases of yellow and white colored lanes. The entire work is done in a static way using static images and extended to detect lanes in videos.
+
+
+
 
 
 
